@@ -1,9 +1,9 @@
 CREATE TABLE IF NOT EXISTS Country (
     id INT NOT NULL AUTO_INCREMENT,
-    name VARCHAR(255) NOT NULL,
-    emoji VARCHAR(255) NOT NULL,
-    currency VARCHAR(255) NOT NULL,
-    code VARCHAR(255) NOT NULL,
-    capital VARCHAR(255) NOT NULL,
+    name VARCHAR(255),
+    emoji VARCHAR(255),
+    currency VARCHAR(255),
+    code VARCHAR(255),
+    capital VARCHAR(255),
     PRIMARY KEY (id)
 );
